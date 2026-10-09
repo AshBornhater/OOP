@@ -170,11 +170,3 @@ Current Balance: Rp 150000
   <br>
   <em>Program output</em>
 </p>
-
-## Design Notes
-
-- Usernames are matched without regard to case, so `Admin` and `admin` count as the same account.
-- Passwords are stored as plain text in memory. That is acceptable for a learning exercise, but a real system would store a salted hash instead.
-- `balance` is an `int`, which is enough for this exercise. A real banking application would use `BigDecimal` to avoid overflow and rounding problems.
-- `withDraw()` uses an exception for simple validation. It keeps the code easy to follow here, though plain `if` checks with an early `return`, like the ones in `deposit()`, would do the same job without exceptions.
-- Right now `BankAccount` is the only subclass of `Bank`, so the polymorphism is limited to overriding. A second account type, such as a savings account with a withdrawal limit, would show it more clearly.
