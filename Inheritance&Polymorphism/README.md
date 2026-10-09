@@ -170,9 +170,3 @@ Press Enter to continue...
   <br>
   <em>Program output</em>
 </p>
-
-## Design Notes
-
-- `Silinder` extends `Lingkaran` so that the circle area logic can be reused for the cylinder base. This works well for the purpose of this assignment, but it is a modeling shortcut: a cylinder is not strictly "a kind of circle". A composition-based design (a cylinder that has a circle as its base) would be the more faithful model in a larger project.
-- Inherited `hitungLuas()` in `Silinder` still returns the area of the circular base, not the cylinder's surface area. The volume is exposed separately through `hitungVolume()`.
-- `printInfo()` formats numbers with `%.5f`, so every result shows five digits after the decimal point.
