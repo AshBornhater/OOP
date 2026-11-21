@@ -172,7 +172,7 @@ scrollPane.setBackground(new Color(0, 0, 0));
   <img src="Assets/placeholder-main-window.png" alt="Main window" width="400">
 </div>
 
-*The vending machine window at startup. Eight product cards with photo, name, price, stock and a Beli button, with the Admin button at the bottom right.*
+<p align="center"><i>The vending machine window at startup. Eight product cards with photo, name, price, stock and a Beli button, with the Admin button at the bottom right.</i></p>
 <br><br>
 
 <div align="center">
@@ -180,7 +180,7 @@ scrollPane.setBackground(new Color(0, 0, 0));
   <img src="Assets/placeholder-admin-menu.png" alt="Admin maintenance menu" width="400">
 </div>
 
-*The maintenance menu that appears after entering the admin password, offering Tambah Stok, Tambah Jenis Barang, Ubah Harga and Kembali.*
+<p align="center"><i>The maintenance menu that appears after entering the admin password, offering Tambah Stok, Tambah Jenis Barang, Ubah Harga and Kembali.</i></p>
 <br><br>
 
 <div align="center">
@@ -188,4 +188,5 @@ scrollPane.setBackground(new Color(0, 0, 0));
   <img src="Assets/placeholder-purchase-dialog.png" alt="Purchase confirmation dialog" width="400">
 </div>
 
-*The confirmation dialog for a purchase, showing the product name, its price and the Yes / No buttons.*
+<p align="center"><i>The confirmation dialog for a purchase, showing the product name, its price and the Yes / No buttons.</i></p>
+
