@@ -15,7 +15,7 @@ javac VendingMachineGUI.java
 java VendingMachineGUI
 ```
 
-The image and sound paths are relative (`Images\water.jpg`, `Images\vmSound.wav`), so the `Images` folder has to be inside the folder you run the program from. Those backslashes also mean the code only runs on Windows as written. On Linux or macOS, change them to forward slashes first.
+The image and sound paths are relative (`Assets\water.jpg`, `Assets\vmSound.wav`), so the `Images` folder has to be inside the folder you run the program from. Those backslashes also mean the code only runs on Windows as written. On Linux or macOS, change them to forward slashes first.
 
 ## What the program does
 
@@ -167,24 +167,20 @@ scrollPane.setBackground(new Color(0, 0, 0));
 
 ## Screenshots
 
-Run the program, then press `Win + Shift + S` to capture the window. Save each picture over the matching placeholder file in the project folder so the links below keep working.
-
 1. Main window
 
-![Main window](Assets/placeholder-main-window.png)
+<img src="Assets/placeholder-main-window.png" alt="Main window" width="400">
 
 *Caption: The vending machine window at startup. Eight product cards with photo, name, price, stock and a Beli button, with the Admin button at the bottom right.*
 
 2. Admin maintenance menu
 
-![Admin maintenance menu](Assets/placeholder-admin-menu.png)
+<img src="Assets/placeholder-admin-menu.png" alt="Admin maintenance menu" width="400">
 
 *Caption: The maintenance menu that appears after entering the admin password, offering Tambah Stok, Tambah Jenis Barang, Ubah Harga and Kembali.*
 
 3. Purchase confirmation
 
-![Purchase confirmation dialog](Assets/placeholder-purchase-dialog.png)
+<img src="Assets/placeholder-purchase-dialog.png" alt="Purchase confirmation dialog" width="400">
 
 *Caption: The confirmation dialog for a purchase, showing the product name, its price and the Yes / No buttons.*
-
-Optional extras if you want more evidence in the report: a screenshot of a product with zero stock (dark red, disabled button), and one of the Tambah Jenis Barang form with its three text fields.
