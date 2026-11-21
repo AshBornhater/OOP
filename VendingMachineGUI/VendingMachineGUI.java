@@ -66,14 +66,14 @@ public class VendingMachineGUI extends JFrame {
     private void loadProductImages() {
         productImages = new ArrayList<>();
         String[] imagePaths = {
-                "Images\\water.jpg",
-                "Images\\cola.jpg",
-                "Images\\milk.jpg",
-                "Images\\prime.jpg",
-                "Images\\pocari.jpg",
-                "Images\\yakult.jpg",
-                "Images\\kelp.jpg",
-                "Images\\shampoo.jpg"
+                "Assets\\water.jpg",
+                "Assets\\cola.jpg",
+                "Assets\\milk.jpg",
+                "Assets\\prime.jpg",
+                "Assets\\pocari.jpg",
+                "Assets\\yakult.jpg",
+                "Assets\\kelp.jpg",
+                "Assets\\shampoo.jpg"
         };
 
         for (String imagePath : imagePaths) {
@@ -84,7 +84,7 @@ public class VendingMachineGUI extends JFrame {
                 productImages.add(scaledIcon);
             } catch (Exception e) {
                 productImages.add(new ImageIcon(
-                        new ImageIcon("Images\\yakult.jpg")
+                        new ImageIcon("Assets\\yakult.jpg")
                                 .getImage().getScaledInstance(150, 150, Image.SCALE_SMOOTH)));
             }
         }
@@ -187,7 +187,7 @@ public class VendingMachineGUI extends JFrame {
         if (confirm == JOptionPane.YES_OPTION) {
             stok.set(index, stok.get(index) - 1);
             updateProductCards();
-            playAudio("Images\\vmSound.wav");
+            playAudio("Assets\\vmSound.wav");
             JOptionPane.showMessageDialog(this, "Terima kasih atas pembelian Anda!");
         }
     }
@@ -294,7 +294,7 @@ public class VendingMachineGUI extends JFrame {
                 harga.add(price);
                 stok.add(stock);
                 productImages.add(new ImageIcon(
-                        new ImageIcon("Images\\potion.png")
+                        new ImageIcon("Assets\\potion.png")
                                 .getImage().getScaledInstance(150, 150, Image.SCALE_SMOOTH)));
                 updateProductCards();
                 JOptionPane.showMessageDialog(this, "Produk baru berhasil ditambahkan!");
