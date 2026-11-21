@@ -173,7 +173,7 @@ scrollPane.setBackground(new Color(0, 0, 0));
 </div>
 
 *The vending machine window at startup. Eight product cards with photo, name, price, stock and a Beli button, with the Admin button at the bottom right.*
-
+<br><br>
 
 <div align="center">
 <p><b>Admin Maintenance Menu</b></p>
@@ -181,7 +181,7 @@ scrollPane.setBackground(new Color(0, 0, 0));
 </div>
 
 *The maintenance menu that appears after entering the admin password, offering Tambah Stok, Tambah Jenis Barang, Ubah Harga and Kembali.*
-
+<br><br>
 
 <div align="center">
 <p><b>Purchase confirmation dialog</b></p>
